@@ -56,7 +56,7 @@ export default function Home() {
 						<h1 className='text mb-5'>My skills</h1>
 					</div>
 					<div className='w-[1000px] px-[30px]'>
-						<ul className='p-7 rounded-lg   shadow-neon text-white flex flex-wrap gap-5 text-[20px]'>
+						<ul className='p-7 rounded-lg justify-center shadow-neon text-white flex flex-wrap gap-5 text-[20px]'>
 							{data.title.map((skill, index) => (
 								<li
 									className='border rounded-lg hover:text-purple-300 transition-colors duration-200 border-purple-300 p-2 justify-center'
